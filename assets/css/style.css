@@ -1,0 +1,65 @@
+html {	background-image: url("../images/DC_1.jpg");
+    	background-width: 960px;
+}
+
+
+#container{
+    width: 100%;
+    max-width: 960px;
+    margin-left: 15px;
+    background: #fff;
+    clear: both;    
+}
+
+
+#Title {
+	text-align: left;
+	font-size: 70px;
+    line-height: 80px;
+    color: #440832;
+    font-family: 'Meddon', cursive;
+
+}
+
+#Text {
+  padding: 10px;
+  margin: 0px 0px 15px 0px;
+  background: #8D1A6A;
+  font-size: 16px;
+  	color: #fff;
+  font-family: 'Open Sans Condensed', sans-serif;
+  width: 400px;
+}
+
+#RandomNumber {
+	float: left;
+	padding-left: 15px;
+	margin: 0px 5px 10px 0px;
+	background: #440832;
+	font-size: 12px;
+	color: #fff;
+	font-family: 'Open Sans Condensed', sans-serif;
+	width: 300px;
+}
+
+#WinsLosses {
+	float: left;
+	padding: 12px;
+	background: #440832;
+	font-size: 12px;
+	font-family: 'Open Sans Condensed', sans-serif;
+	color: #fff;
+	width: 75px;
+
+}
+
+#YourScore {
+	padding-left: 15px;
+	margin: 0px 5px 10px 0px;
+	background: #440832;
+	font-size: 12px;
+	color: #fff;
+	font-family: 'Open Sans Condensed', sans-serif;
+	width: 300px;
+	clear: both;
+}
