@@ -3,6 +3,8 @@
   $("#number-to-guess").text(targetNumber);
 
   var counter = 0;
+  var wins = 0;
+  var losses = 0; 
 
   // $("#globalcounter").text(counter);
 
@@ -65,10 +67,12 @@
 
     if (counter === targetNumber) {
       alert("You win!");
+       $("#win-counter").text(wins + 1);
     }
 
     else if (counter >= targetNumber) {
       alert("You lose!!");
+    
     
     $("#lifeDrain").show();
 
